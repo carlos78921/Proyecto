@@ -1,0 +1,6 @@
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Debug\Gestion de biblioteca.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Debug\Gestion_de_biblioteca.Form1.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Debug\Gestion_de_biblioteca.Properties.Resources.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Debug\Gestion_de_biblioteca.Seguridad.FrmLogic.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Debug\Gestion de biblioteca.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Debug\Gestion de biblioteca.csproj.CoreCompileInputs.cache

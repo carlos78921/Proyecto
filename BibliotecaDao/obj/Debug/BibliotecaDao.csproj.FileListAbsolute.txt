@@ -1,0 +1,4 @@
+C:\Users\DELL\Desktop\Gestion de biblioteca\BibliotecaDao\obj\Debug\BibliotecaDao.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Gestion de biblioteca\BibliotecaDao\obj\Debug\BibliotecaDao.Properties.Resources.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\BibliotecaDao\obj\Debug\BibliotecaDao.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\Gestion de biblioteca\BibliotecaDao\obj\Debug\BibliotecaDao.csproj.CoreCompileInputs.cache
