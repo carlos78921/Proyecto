@@ -1,0 +1,9 @@
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion de biblioteca.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion_de_biblioteca.Usuario.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion_de_biblioteca.Libro.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion_de_biblioteca.Libros.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion_de_biblioteca.Properties.Resources.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion_de_biblioteca.Seguridad.FrmLogic.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion_de_biblioteca.Usuarios.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion de biblioteca.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\Gestion de biblioteca\Gestion de biblioteca\obj\Release\Gestion de biblioteca.csproj.CoreCompileInputs.cache

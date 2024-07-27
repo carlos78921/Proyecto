@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaLib", "Biblioteca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaDao", "BibliotecaDao\BibliotecaDao.csproj", "{895FADC4-0277-4664-A4D3-B0458E1035A1}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BibliotecaSetup", "BibliotecaSetup\BibliotecaSetup.vdproj", "{D74D98D6-D70F-4574-B1F3-1765C0FE8DA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,8 @@ Global
 		{895FADC4-0277-4664-A4D3-B0458E1035A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{895FADC4-0277-4664-A4D3-B0458E1035A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{895FADC4-0277-4664-A4D3-B0458E1035A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74D98D6-D70F-4574-B1F3-1765C0FE8DA9}.Debug|Any CPU.ActiveCfg = Debug
+		{D74D98D6-D70F-4574-B1F3-1765C0FE8DA9}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

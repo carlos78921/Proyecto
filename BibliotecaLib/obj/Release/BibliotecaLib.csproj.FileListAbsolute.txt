@@ -1,0 +1,4 @@
+C:\Users\DELL\Desktop\Gestion de biblioteca\BibliotecaLib\obj\Release\BibliotecaLib.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Gestion de biblioteca\BibliotecaLib\obj\Release\BibliotecaLib.Properties.Resources.resources
+C:\Users\DELL\Desktop\Gestion de biblioteca\BibliotecaLib\obj\Release\BibliotecaLib.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\Gestion de biblioteca\BibliotecaLib\obj\Release\BibliotecaLib.csproj.CoreCompileInputs.cache
