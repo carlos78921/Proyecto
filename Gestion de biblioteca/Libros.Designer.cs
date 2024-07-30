@@ -1,6 +1,6 @@
 ﻿namespace Gestion_de_biblioteca
 {
-    partial class Libros
+    partial class frmlibros
     {
         /// <summary>
         /// Required designer variable.
@@ -29,28 +29,30 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.btneditar = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bindingLibros = new System.Windows.Forms.BindingSource(this.components);
             this.Titulo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Autor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Categoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IBSN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Año_publicacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Editoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bindingLibros = new System.Windows.Forms.BindingSource(this.components);
+            this.btnDetalle = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingLibros)).BeginInit();
             this.SuspendLayout();
             // 
-            // btneditar
+            // btneliminar
             // 
-            this.btneditar.Location = new System.Drawing.Point(312, 217);
-            this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(75, 23);
-            this.btneditar.TabIndex = 0;
-            this.btneditar.Text = "Editar";
-            this.btneditar.UseVisualStyleBackColor = true;
+            this.btneliminar.Location = new System.Drawing.Point(312, 217);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(75, 23);
+            this.btneliminar.TabIndex = 0;
+            this.btneliminar.Text = "Eliminar";
+            this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click_1);
             // 
             // btnNuevo
             // 
@@ -60,6 +62,7 @@
             this.btnNuevo.TabIndex = 1;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // dataGridView1
             // 
@@ -106,15 +109,26 @@
             this.Editoria.HeaderText = "Editoria";
             this.Editoria.Name = "Editoria";
             // 
-            // Libros
+            // btnDetalle
+            // 
+            this.btnDetalle.Location = new System.Drawing.Point(231, 216);
+            this.btnDetalle.Name = "btnDetalle";
+            this.btnDetalle.Size = new System.Drawing.Size(75, 23);
+            this.btnDetalle.TabIndex = 3;
+            this.btnDetalle.Text = "Detalle";
+            this.btnDetalle.UseVisualStyleBackColor = true;
+            this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click_1);
+            // 
+            // frmlibros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 256);
+            this.Controls.Add(this.btnDetalle);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnNuevo);
-            this.Controls.Add(this.btneditar);
-            this.Name = "Libros";
+            this.Controls.Add(this.btneliminar);
+            this.Name = "frmlibros";
             this.Text = "Libros";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingLibros)).EndInit();
@@ -124,7 +138,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btneditar;
+        private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.BindingSource bindingLibros;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -134,5 +148,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn IBSN;
         private System.Windows.Forms.DataGridViewTextBoxColumn Año_publicacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Editoria;
+        private System.Windows.Forms.Button btnDetalle;
     }
 }

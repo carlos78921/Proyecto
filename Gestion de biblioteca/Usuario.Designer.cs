@@ -1,6 +1,6 @@
 ﻿namespace Gestion_de_biblioteca
 {
-    partial class Usuario
+    partial class frmUsuario
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -127,6 +127,7 @@
             this.btnConfirma.TabIndex = 9;
             this.btnConfirma.Text = "Corfirma";
             this.btnConfirma.UseVisualStyleBackColor = true;
+            this.btnConfirma.Click += new System.EventHandler(this.btnConfirma_Click);
             // 
             // btnCarcelar
             // 
@@ -185,7 +186,7 @@
             this.txtRegistro.Size = new System.Drawing.Size(126, 20);
             this.txtRegistro.TabIndex = 16;
             // 
-            // Usuario
+            // frmUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -207,7 +208,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Usuario";
+            this.Name = "frmUsuario";
             this.Text = "Usuario";
             this.ResumeLayout(false);
             this.PerformLayout();

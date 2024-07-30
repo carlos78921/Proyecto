@@ -1,6 +1,6 @@
 ﻿namespace Gestion_de_biblioteca
 {
-    partial class Usuarios
+    partial class frmUsuarios
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnAbrir = new System.Windows.Forms.Button();
-            this.btneditar = new System.Windows.Forms.Button();
-            this.txtGuardar = new System.Windows.Forms.Button();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,7 +37,12 @@
             this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha_registro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btneditar = new System.Windows.Forms.Button();
+            this.btndetalle = new System.Windows.Forms.Button();
+            this.bindingUsuarios = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -53,37 +56,10 @@
             this.Telefono,
             this.Direccion,
             this.Fecha_registro});
-            this.dataGridView1.Location = new System.Drawing.Point(23, 28);
+            this.dataGridView1.Location = new System.Drawing.Point(36, 29);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(496, 150);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // btnAbrir
-            // 
-            this.btnAbrir.Location = new System.Drawing.Point(441, 204);
-            this.btnAbrir.Name = "btnAbrir";
-            this.btnAbrir.Size = new System.Drawing.Size(75, 23);
-            this.btnAbrir.TabIndex = 3;
-            this.btnAbrir.Text = "Abrir";
-            this.btnAbrir.UseVisualStyleBackColor = true;
-            // 
-            // btneditar
-            // 
-            this.btneditar.Location = new System.Drawing.Point(360, 204);
-            this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(75, 23);
-            this.btneditar.TabIndex = 2;
-            this.btneditar.Text = "Editar";
-            this.btneditar.UseVisualStyleBackColor = true;
-            // 
-            // txtGuardar
-            // 
-            this.txtGuardar.Location = new System.Drawing.Point(279, 204);
-            this.txtGuardar.Name = "txtGuardar";
-            this.txtGuardar.Size = new System.Drawing.Size(75, 23);
-            this.txtGuardar.TabIndex = 4;
-            this.txtGuardar.Text = "Guardar";
-            this.txtGuardar.UseVisualStyleBackColor = true;
             // 
             // Codigo
             // 
@@ -120,18 +96,49 @@
             this.Fecha_registro.HeaderText = "Fecha_registro";
             this.Fecha_registro.Name = "Fecha_registro";
             // 
-            // Usuarios
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(441, 204);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(75, 23);
+            this.btnNuevo.TabIndex = 3;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click_1);
+            // 
+            // btneditar
+            // 
+            this.btneditar.Location = new System.Drawing.Point(360, 204);
+            this.btneditar.Name = "btneditar";
+            this.btneditar.Size = new System.Drawing.Size(75, 23);
+            this.btneditar.TabIndex = 2;
+            this.btneditar.Text = "Editar";
+            this.btneditar.UseVisualStyleBackColor = true;
+            this.btneditar.Click += new System.EventHandler(this.btneditar_Click);
+            // 
+            // btndetalle
+            // 
+            this.btndetalle.Location = new System.Drawing.Point(279, 204);
+            this.btndetalle.Name = "btndetalle";
+            this.btndetalle.Size = new System.Drawing.Size(75, 23);
+            this.btndetalle.TabIndex = 4;
+            this.btndetalle.Text = "Detalle";
+            this.btndetalle.UseVisualStyleBackColor = true;
+            this.btndetalle.Click += new System.EventHandler(this.btndetalle_Click);
+            // 
+            // frmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 269);
-            this.Controls.Add(this.txtGuardar);
-            this.Controls.Add(this.btnAbrir);
+            this.Controls.Add(this.btndetalle);
+            this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btneditar);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Usuarios";
+            this.Name = "frmUsuarios";
             this.Text = "Usuarios";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingUsuarios)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -139,9 +146,8 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnAbrir;
+        private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btneditar;
-        private System.Windows.Forms.Button txtGuardar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Apellido;
@@ -149,5 +155,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefono;
         private System.Windows.Forms.DataGridViewTextBoxColumn Direccion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_registro;
+        private System.Windows.Forms.Button btndetalle;
+        private System.Windows.Forms.BindingSource bindingUsuarios;
     }
 }

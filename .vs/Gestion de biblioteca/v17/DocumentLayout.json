@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{895FADC4-0277-4664-A4D3-B0458E1035A1}|BibliotecaDao\\BibliotecaDao.csproj|c:\\users\\dell\\desktop\\gestion de biblioteca\\bibliotecadao\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{895FADC4-0277-4664-A4D3-B0458E1035A1}|BibliotecaDao\\BibliotecaDao.csproj|solutionrelative:bibliotecadao\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|c:\\users\\dell\\desktop\\gestion de biblioteca\\gestion de biblioteca\\seguridad\\frmlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|solutionrelative:gestion de biblioteca\\seguridad\\frmlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|c:\\users\\dell\\desktop\\gestion de biblioteca\\gestion de biblioteca\\seguridad\\frmlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|solutionrelative:gestion de biblioteca\\seguridad\\frmlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BC76372-1A4D-4E5C-8EB8-89C64DC5DFDB}|BibliotecaLib\\BibliotecaLib.csproj|c:\\users\\dell\\desktop\\gestion de biblioteca\\bibliotecalib\\exportaraexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC76372-1A4D-4E5C-8EB8-89C64DC5DFDB}|BibliotecaLib\\BibliotecaLib.csproj|solutionrelative:bibliotecalib\\exportaraexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\gestion de biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|c:\\users\\dell\\desktop\\gestion de biblioteca\\gestion de biblioteca\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|solutionrelative:gestion de biblioteca\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|c:\\users\\dell\\desktop\\gestion de biblioteca\\gestion de biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|solutionrelative:gestion de biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BC76372-1A4D-4E5C-8EB8-89C64DC5DFDB}|BibliotecaLib\\BibliotecaLib.csproj|C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\bibliotecalib\\controladores\\seguridad\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC76372-1A4D-4E5C-8EB8-89C64DC5DFDB}|BibliotecaLib\\BibliotecaLib.csproj|solutionrelative:bibliotecalib\\controladores\\seguridad\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|c:\\users\\dell\\desktop\\gestion de biblioteca\\gestion de biblioteca\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|solutionrelative:gestion de biblioteca\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BC76372-1A4D-4E5C-8EB8-89C64DC5DFDB}|BibliotecaLib\\BibliotecaLib.csproj|C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\bibliotecalib\\controladores\\seguridad\\verificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC76372-1A4D-4E5C-8EB8-89C64DC5DFDB}|BibliotecaLib\\BibliotecaLib.csproj|solutionrelative:bibliotecalib\\controladores\\seguridad\\verificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|c:\\users\\dell\\desktop\\gestion de biblioteca\\gestion de biblioteca\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B4D8C678-383B-4CED-A946-4718BF5AE2AD}|Gestion de biblioteca\\Gestion de biblioteca.csproj|solutionrelative:gestion de biblioteca\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,74 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ExportarAExcel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\BibliotecaLib\\ExportarAExcel.cs",
+              "RelativeDocumentMoniker": "BibliotecaLib\\ExportarAExcel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\BibliotecaLib\\ExportarAExcel.cs",
+              "RelativeToolTip": "BibliotecaLib\\ExportarAExcel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T02:36:02.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmLogic.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Seguridad\\FrmLogic.cs",
+              "RelativeDocumentMoniker": "Gestion de biblioteca\\Seguridad\\FrmLogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Seguridad\\FrmLogic.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gestion de biblioteca\\Seguridad\\FrmLogic.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T02:35:48.846Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Libro.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Libro.cs",
               "RelativeDocumentMoniker": "Gestion de biblioteca\\Libro.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Libro.cs [Dise\u00F1o]",
               "RelativeToolTip": "Gestion de biblioteca\\Libro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:51:45.357Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-07-30T02:29:08.346Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\BibliotecaLib\\Controladores\\Seguridad\\Roles.cs",
-              "RelativeDocumentMoniker": "BibliotecaLib\\Controladores\\Seguridad\\Roles.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\BibliotecaLib\\Controladores\\Seguridad\\Roles.cs",
-              "RelativeToolTip": "BibliotecaLib\\Controladores\\Seguridad\\Roles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "DocumentIndex": 2,
+              "Title": "Libros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Libros.cs",
+              "RelativeDocumentMoniker": "Gestion de biblioteca\\Libros.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Libros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gestion de biblioteca\\Libros.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:40:32.911Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\BibliotecaDao\\DataContext.cs",
-              "RelativeDocumentMoniker": "BibliotecaDao\\DataContext.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\BibliotecaDao\\DataContext.cs",
-              "RelativeToolTip": "BibliotecaDao\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T22:52:15.957Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmLogic.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Seguridad\\FrmLogic.cs",
-              "RelativeDocumentMoniker": "Gestion de biblioteca\\Seguridad\\FrmLogic.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Seguridad\\FrmLogic.cs",
-              "RelativeToolTip": "Gestion de biblioteca\\Seguridad\\FrmLogic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T23:31:10.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T02:29:07.531Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Verificaciones.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\BibliotecaLib\\Controladores\\Seguridad\\Verificaciones.cs",
-              "RelativeDocumentMoniker": "BibliotecaLib\\Controladores\\Seguridad\\Verificaciones.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\BibliotecaLib\\Controladores\\Seguridad\\Verificaciones.cs",
-              "RelativeToolTip": "BibliotecaLib\\Controladores\\Seguridad\\Verificaciones.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAmwC4AAAAbAAAA",
+              "Title": "Usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Gestion de biblioteca\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gestion de biblioteca\\Usuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T22:48:17.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T02:29:06.259Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Usuario.cs",
+              "RelativeDocumentMoniker": "Gestion de biblioteca\\Usuario.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Gestion de biblioteca\\Gestion de biblioteca\\Usuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gestion de biblioteca\\Usuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T02:29:01.552Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

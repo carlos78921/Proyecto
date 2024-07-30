@@ -14,13 +14,13 @@ namespace Gestion_de_biblioteca.Seguridad
 {
     public partial class FrmLogic : Form
     {
-        public Usuario UsuarioSesion { get; set; }
+        public frmUsuario UsuarioSesion { get; set; }
 
-        private Usuarios usuarioController;
+        private frmUsuarios usuarioController;
         public FrmLogic()
         {
             InitializeComponent();
-            usuarioController = new Usuarios();
+            usuarioController = new frmUsuarios();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

@@ -1,6 +1,6 @@
 ﻿namespace Gestion_de_biblioteca
 {
-    partial class Libro
+    partial class frmlibro
     {
         /// <summary>
         /// Required designer variable.
@@ -43,20 +43,23 @@
             this.txtIBSN = new System.Windows.Forms.TextBox();
             this.txtaño = new System.Windows.Forms.TextBox();
             this.txtEditoria = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btncorfirma
             // 
-            this.btncorfirma.Location = new System.Drawing.Point(85, 254);
+            this.btncorfirma.Location = new System.Drawing.Point(91, 297);
             this.btncorfirma.Name = "btncorfirma";
             this.btncorfirma.Size = new System.Drawing.Size(75, 23);
             this.btncorfirma.TabIndex = 0;
             this.btncorfirma.Text = "Corfirma";
             this.btncorfirma.UseVisualStyleBackColor = true;
+            this.btncorfirma.Click += new System.EventHandler(this.btncorfirma_Click);
             // 
             // btnCarcelar
             // 
-            this.btnCarcelar.Location = new System.Drawing.Point(175, 254);
+            this.btnCarcelar.Location = new System.Drawing.Point(181, 297);
             this.btnCarcelar.Name = "btnCarcelar";
             this.btnCarcelar.Size = new System.Drawing.Size(75, 23);
             this.btnCarcelar.TabIndex = 1;
@@ -75,7 +78,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 57);
+            this.label2.Location = new System.Drawing.Point(31, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 13);
             this.label2.TabIndex = 3;
@@ -84,7 +87,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 154);
+            this.label3.Location = new System.Drawing.Point(32, 197);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 13);
             this.label3.TabIndex = 4;
@@ -93,7 +96,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(26, 188);
+            this.label4.Location = new System.Drawing.Point(32, 231);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 13);
             this.label4.TabIndex = 5;
@@ -102,7 +105,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(26, 120);
+            this.label5.Location = new System.Drawing.Point(32, 163);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 13);
             this.label5.TabIndex = 6;
@@ -111,7 +114,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(26, 221);
+            this.label6.Location = new System.Drawing.Point(32, 264);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(42, 13);
             this.label6.TabIndex = 7;
@@ -120,7 +123,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(26, 87);
+            this.label7.Location = new System.Drawing.Point(32, 130);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(32, 13);
             this.label7.TabIndex = 8;
@@ -128,51 +131,69 @@
             // 
             // txttitulo
             // 
-            this.txttitulo.Location = new System.Drawing.Point(64, 54);
+            this.txttitulo.Location = new System.Drawing.Point(70, 97);
             this.txttitulo.Name = "txttitulo";
             this.txttitulo.Size = new System.Drawing.Size(189, 20);
             this.txttitulo.TabIndex = 9;
             // 
             // txtautor
             // 
-            this.txtautor.Location = new System.Drawing.Point(64, 87);
+            this.txtautor.Location = new System.Drawing.Point(70, 130);
             this.txtautor.Name = "txtautor";
             this.txtautor.Size = new System.Drawing.Size(189, 20);
             this.txtautor.TabIndex = 10;
             // 
             // txtcategoria
             // 
-            this.txtcategoria.Location = new System.Drawing.Point(85, 120);
+            this.txtcategoria.Location = new System.Drawing.Point(91, 163);
             this.txtcategoria.Name = "txtcategoria";
             this.txtcategoria.Size = new System.Drawing.Size(168, 20);
             this.txtcategoria.TabIndex = 11;
             // 
             // txtIBSN
             // 
-            this.txtIBSN.Location = new System.Drawing.Point(64, 151);
+            this.txtIBSN.Location = new System.Drawing.Point(70, 194);
             this.txtIBSN.Name = "txtIBSN";
             this.txtIBSN.Size = new System.Drawing.Size(189, 20);
             this.txtIBSN.TabIndex = 12;
             // 
             // txtaño
             // 
-            this.txtaño.Location = new System.Drawing.Point(131, 188);
+            this.txtaño.Location = new System.Drawing.Point(137, 231);
             this.txtaño.Name = "txtaño";
             this.txtaño.Size = new System.Drawing.Size(122, 20);
             this.txtaño.TabIndex = 13;
             // 
             // txtEditoria
             // 
-            this.txtEditoria.Location = new System.Drawing.Point(74, 218);
+            this.txtEditoria.Location = new System.Drawing.Point(80, 261);
             this.txtEditoria.Name = "txtEditoria";
             this.txtEditoria.Size = new System.Drawing.Size(179, 20);
             this.txtEditoria.TabIndex = 14;
             // 
-            // Libro
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(35, 64);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(40, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Codigo";
+            // 
+            // txtCodigo
+            // 
+            this.txtCodigo.Location = new System.Drawing.Point(80, 64);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(179, 20);
+            this.txtCodigo.TabIndex = 16;
+            // 
+            // frmlibro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(291, 309);
+            this.ClientSize = new System.Drawing.Size(291, 341);
+            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.txtEditoria);
             this.Controls.Add(this.txtaño);
             this.Controls.Add(this.txtIBSN);
@@ -188,7 +209,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCarcelar);
             this.Controls.Add(this.btncorfirma);
-            this.Name = "Libro";
+            this.Name = "frmlibro";
             this.Text = "Libro";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -212,5 +233,7 @@
         private System.Windows.Forms.TextBox txtIBSN;
         private System.Windows.Forms.TextBox txtaño;
         private System.Windows.Forms.TextBox txtEditoria;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtCodigo;
     }
 }
