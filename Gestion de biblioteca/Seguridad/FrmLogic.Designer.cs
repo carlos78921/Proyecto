@@ -88,6 +88,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmLogic";
             this.Text = "Inicia sesion";
+            this.Load += new System.EventHandler(this.FrmLogic_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

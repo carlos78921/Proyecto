@@ -37,5 +37,10 @@ namespace Gestion_de_biblioteca.Seguridad
                 MessageBox.Show("Usuario o contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void FrmLogic_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
